@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <section class="current">
+        <div class="current-weather">
+          <h2 class="current-temp">🌤 79&deg;</h2>
+          <h3 class="current-date">
+            Friday 9/17
+          </h3>
+          <h4 class="current-time">10:52 am</h4>
+        </div>
+        <div class="search city">
+            
+          <input type="text" class="search-box" placeholder="Search for a city"/>
+          <button class="btn search-btn">🔍</button>
+          
+          <h1 class="current-city">Austin, TX</h1>
+          <button class="btn current-city-btn">Current City</button>
+        </div>
+      </section>
+      <section class="forecast">
+       
+          <h2>Forecast</h2>
+          <h2>Forecast</h2>
+          <h2>Forecast</h2>
+        
+          <h2>Forecast</h2>
+          <h2>Forecast</h2>
+          <h2>Forecast</h2>
+       
+      </section>
+    </div>
+    <script src="src/script.js"></script>
+  </body>
+</html>
