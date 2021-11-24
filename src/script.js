@@ -1,10 +1,8 @@
-// get value from input field when search button is clicked
-// add a current city button that gets the user's current location
-// Change current-city to reflect retrieved city
-// When current city button is clicked, update the weather data for their current location
-// Update current temp, date, and time based on data retrieved from weather API
-// bonus: create a switch statement that assigns an appropriate emoji to current weather description
-// rebuild HTMl and CSS to use grid and include apprpirate classes for code
+
+// rebuild HTMl and CSS to use grid and include appropriate classes for code
+// initialize app with info for current location
+// Add forecasted data
+// Add conversion from Celcius to Fahrenheit and vice versa
 
 'use strict';
 
